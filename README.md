@@ -8,7 +8,7 @@ This repository combine functions developed by CPLEN with available functions in
 
 REPRA package was developed by NREL and it is available at  https://github.com/NREL/repra/blob/master/README.md. Although enormously useful, REPRA has some limitations such as maitenance lack and the focus on thermal systems. We have developed this repository to overcome these limitaions and extend the REPRA approach to thermo-hydro systems.
 
-The main difference between predominantly hydro systems from thermal ones are the variable capacity from hydro systems. This requires that to calculate capacity contribution from variable sources we are able to update not only load and variable sources production but also avaliable capacity from the dispatchable sources.
+The main difference between predominantly hydro systems from thermal ones is the variable capacity from hydro systems. This requires that to calculate capacity contribution from variable sources we are able to update not only load and variable sources production but also avaliable capacity from the dispatchable sources.
 
 There is one difficulty that may be encoutered when running the program. Newer versions of data.table may not work adequately. To overcome such a problem it is possible to use older versions of the data.table package or to manually source in RStudio the scripts for the format_timedata function (https://rdrr.io/github/NREL/repra/src/R/timedata.R) and for the has_no_name function (https://rdrr.io/github/NREL/repra/src/R/auxiliary.R). A more robust solution to this issue will be adressed in the future.
 
